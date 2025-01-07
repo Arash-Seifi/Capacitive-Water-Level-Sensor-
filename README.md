@@ -10,16 +10,22 @@ To build the capacitive water level sensor, the following components were utiliz
 
 Arduino Board:
   Acts as the brain of the system, measuring charging times and controlling LEDs.
+  
 Breadboard:
   Facilitates easy connections between components.
+  
 Jumper Wires:
   Connect various components on the breadboard and Arduino.
+  
 Two Metal Plates (Electrodes):
   Serve as the sensing element. The capacitance between the plates changes with the water level.
+  
 10 nF Capacitor:
   Connected in parallel with the electrodes, it determines the charging time based on the water level.
+  
 220Ω Resistors:
   Connected in series with each LED to limit current and prevent damage to the LEDs.
+  
 LEDs (Low, Medium, High):
 Indicate different water levels visually:
   Low Level: Illuminates the first LED.
