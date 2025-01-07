@@ -45,12 +45,18 @@ The capacitor is first discharged by setting pin 2 to LOW.
 The time taken for the capacitor to charge to a threshold voltage is measured using the micros() function.
 Water Level Detection:
 The measured charging time is compared with predefined thresholds:
+
 Low Level: Charge time < 10800 microseconds.
 ![photo_6044130428975170459_y](https://github.com/user-attachments/assets/334605bb-764f-4284-a0c3-f08bc77522ae)
 ![photo_6044130428975170455_y](https://github.com/user-attachments/assets/2277c2d2-a853-4ec8-ab91-2c826225ea26)
 
 Medium Level: Charge time between 10900 and 11250 microseconds.
+
 High Level: Charge time > 11250 microseconds.
+![photo_6044130428975170457_y](https://github.com/user-attachments/assets/1f332bc8-b1bf-443b-a6ea-2ab18ae0c87f)
+![photo_6044130428975170456_y](https://github.com/user-attachments/assets/c3240463-0cef-4adf-ab18-db10be10adc7)
+
+
 ### LED Control:
 The corresponding LED is lit based on the detected water level.
 ## 4. Results
